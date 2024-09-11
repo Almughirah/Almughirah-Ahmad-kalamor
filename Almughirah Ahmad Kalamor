@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artikel Pengalaman</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h1>Belajar Coding</h1>
+    <p>
+        Namaku Almughirah Ahmad Kalamor, dan aku sangat menyukai dunia teknologi. Salah satu pengalaman pertamaku dalam belajar pemrograman adalah saat aku belajar HTML, terutama tentang cara membuat teks menggunakan tag-tag sederhana. Aku masih ingat betapa antusiasnya diriku waktu itu.
+
+        Awalnya, aku hanya penasaran. Aku pernah melihat beberapa website dengan teks miring, dan aku bertanya-tanya, "Bagaimana caranya membuat teks seperti itu?" Jadi, aku memutuskan untuk mencobanya sendiri. Aku membuka laptop dan mulai mencari informasi dasar tentang HTML. Setelah beberapa menit mencari, aku menemukan bahwa ada tag yang bisa digunakan untuk mengatur tampilan teks.
+
+        Saat file HTML itu kubuka di browser, betapa terkejutnya aku melihat hasilnya. Teks yang kutulis benar-benar muncul seperti yang aku inginkan! Rasanya seperti sebuah pencapaian besar, meskipun itu hanya langkah kecil dalam dunia pemrograman.
+
+
+        <p>Dari situ, aku mulai memahami bahwa HTML itu seperti bahasa rahasia yang bisa membuat website lebih dinamis dan menarik. Aku menyadari bahwa meski tampak sederhana, kode-kode kecil seperti ini bisa mengubah cara orang berinteraksi dengan halaman web.
+
+        Pengalaman belajar membuat teks itu membuka mataku untuk terus belajar hal-hal baru. Aku tahu bahwa masih banyak yang harus kupelajari di dunia web development, tapi aku sangat menikmati setiap prosesnya. Belajar HTML, CSS, dan bahkan JavaScript menjadi tantangan yang menyenangkan, dan semuanya berawal dari rasa ingin tahuku tentang bagaimana cara membuat teks seperti yang diinginkan.
+    </p>
+
+    <h2>Daftar Mata Kuliah yang Telah Dipelajari</h2>
+    <table>
+        <tr>
+            <th>No</th>
+            <th>Mata Kuliah</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Inovasi teknologi</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Web Programan</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Struktur Data</td>
+        </tr>
+    </table>
+
+    <h2>Daftar Dosen</h2>
+    <table>
+        <tr>
+            <th>No</th>
+            <th>Nama Dosen</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Dr. Ir. Yasdin, S.Pd., M.Pd., M.Sc., IPM</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>AlifyaNFH, S.Pd., M.Pd.</td>
+        </tr>
+    </table>
+
+    <h2>Foto Kegiatan</h2>
+    <p>
+        <img src="c:\Users\User\Downloads\IMG_7148.jpg" alt="Foto Kegiatan">
+    </p>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Mahasiswa</title>
+    <style>
+        .strikethrough {
+            text-decoration: line-through;
+        }
+        i {
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <p>Nama : Almughirah Ahmad Kalamor</p>
+    <p>NIM : 230209502085</p>
+    <p>Kelas : PTIK-H</p>
+    <p>Alamat : <span class="strikethrough">Jl Korban 40.000 Kee Panca rijang, Kab Sidendreng Rappang</span></p>
+    <p>Alamat : Jl. Sunu Griya Harapan Sunu, Kec.TalloMakassar</p>
+    
+    <p>Sekolah Asal <strong>SMA Negeri <sup>1</sup> Campalagian</strong></p>
+    <p><a href="https://www.unm.ac.id/">universitas negeri makassar</a></p>
+    
+    <p><i>Tetap Hidup Dan Hidup</i></p>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Buku Tamu</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .form-container {
+            width: 300px;
+            margin: 0 auto;
+            border: 1px solid black;
+            padding: 20px;
+        }
+        .form-container h2 {
+            text-align: center;
+        }
+        label {
+            display: block;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+        input[type="text"], input[type="email"], textarea, select {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        input[type="radio"], input[type="checkbox"] {
+            margin-right: 5px;
+        }
+        .social-media {
+            margin-bottom: 10px;
+        }
+        .form-actions {
+            text-align: center;
+        }
+        button {
+            padding: 8px 16px;
+            margin: 5px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        button.cancel {
+            background-color: #f44336;
+        }
+        button.cancel:hover {
+            background-color: #e53935;
+        }
+    </style>
+</head>
+<body>
+
+<div class="form-container">
+    <h2>Form Buku Tamu</h2>
+    <form action="#" method="post">
+        <label for="nama">Nama Lengkap:</label>
+        <input type="text" id="nama" name="nama" placeholder="Masukkan nama lengkap" required>
+
+        <label>Jenis Kelamin:</label>
+        <input type="radio" id="laki-laki" name="gender" value="Laki-laki">
+        <label for="laki-laki" style="display:inline;">Laki-laki</label>
+        <input type="radio" id="perempuan" name="gender" value="Perempuan">
+        <label for="perempuan" style="display:inline;">Perempuan</label>
+
+        <label for="alamat">Alamat Tinggal:</label>
+        <input type="text" id="alamat" name="alamat" placeholder="Masukkan alamat lengkap" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Masukkan email" required>
+
+        <label>Aktif Pada Sosial Media:</label>
+        <div class="social-media">
+            <input type="checkbox" id="facebook" name="social" value="Facebook">
+            <label for="facebook" style="display:inline;">Facebook</label>
+            <input type="checkbox" id="twitter" name="social" value="Twitter">
+            <label for="twitter" style="display:inline;">Twitter</label>
+            <input type="checkbox" id="instagram" name="social" value="Instagram">
+            <label for="instagram" style="display:inline;">Instagram</label>
+            <input type="checkbox" id="path" name="social" value="Path">
+            <label for="path" style="display:inline;">Path</label>
+        </div>
+
+        <label for="sumber">Mengetahui Web Ini dari:</label>
+        <select id="sumber" name="sumber">
+            <option value="">-- Pilih --</option>
+            <option value="Teman">Teman</option>
+            <option value="Media Sosial">Media Sosial</option>
+            <option value="Internet">Internet</option>
+        </select>
+
+        <label for="pesan">Pesan:</label>
+        <textarea id="pesan" name="pesan" rows="4" placeholder="Tulis pesan anda di sini"></textarea>
+
+        <div class="form-actions">
+            <button type="submit">Kirim</button>
+            <button type="reset" class="cancel">Batal</button>
+        </div>
+    </form>
+</div>
+
+</body>
+</html>
+
+
